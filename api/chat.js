@@ -68,7 +68,7 @@ RÈGLES DE RÉPONSE :
 - Ne jamais inventer de fausses adresses ou d'autres coordonnées que celles de Pigier / Émile Russel.`;
 
   try {
-    const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
 
     // Construction du format de requêtes pour l'API Gemini
     const contents = [];
